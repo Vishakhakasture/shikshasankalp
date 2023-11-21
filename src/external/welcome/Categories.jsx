@@ -23,6 +23,23 @@ const Categories = () => {
           <p className="course">Courses</p>
         </div>
       </div>
+      <div className="categories">
+        <div className="category">
+          <img src={img} alt="" />
+          <h3 className="title">Title</h3>
+          <p className="course">Courses</p>
+        </div>
+        <div className="category">
+          <img src={img} alt="" />
+          <h3 className="title">Title</h3>
+          <p className="course">Courses</p>
+        </div>
+        <div className="category">
+          <img src={img} alt="" />
+          <h3 className="title">Title</h3>
+          <p className="course">Courses</p>
+        </div>
+      </div>
     </section>
   );
 };

@@ -88,20 +88,22 @@
 /* --------------- slider css -------------------- */
 
 .myslider-container {
-    width: 100%;  
-    margin-top: 0px;
+    width: 100%; 
+    height: 100vh;
+    margin-top: -20px;
 }
 .my-slide {
-    width: 100%;
+    width: 100%;   
 }
-.my-slide .slide-img {
+.slide-img {
     background-size: cover;
-    width: 100%;
+    width: 100%;    
+    height: 470px;
 }
 .my-slide .slide-text {
     position: absolute;
-    top: 280px;
-    left: 60px;
+    top: 180px;
+    left: 80px;
     color: var(--color-white);
     line-height: 2.5;
 }

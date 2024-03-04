@@ -35,6 +35,22 @@ const Slider = () => {
       >
         <div className="my-slide">
           <div>
+            <img className="slide-img" src={img3} alt="" />
+          </div>
+          <div className="slide-text">
+            <h3 className="slide-head">
+              Schools can purchase courses for student
+            </h3>
+            <p className="slide-para">
+              Schools can take a courses they want for their students.
+            </p>
+            <a href="../courses" className="slide-btn">
+              Courses
+            </a>
+          </div>
+        </div>
+        <div className="my-slide">
+          <div>
             <img className="slide-img" src={img1} alt="" />
           </div>
           <div className="slide-text">
@@ -60,22 +76,6 @@ const Slider = () => {
             </p>
             <a href="../instructor" className="slide-btn">
               Instructor
-            </a>
-          </div>
-        </div>
-        <div className="my-slide">
-          <div>
-            <img className="slide-img" src={img3} alt="" />
-          </div>
-          <div className="slide-text">
-            <h3 className="slide-head">
-              Schools can purchase courses for student
-            </h3>
-            <p className="slide-para">
-              Schools can take a courses they want for their students.
-            </p>
-            <a href="../courses" className="slide-btn">
-              Courses
             </a>
           </div>
         </div>
